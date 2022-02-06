@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from sql_connection import get_sql_connection
 import mysql.connector
 import json
@@ -60,6 +60,10 @@ def delete_product():
     })
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
+
+@app.route('/hello')
+def index():
+    return render_template('index.html')
 
 if __name__ == "__main__":
     print("Starting Python Flask Server For Grocery Store Management System")
