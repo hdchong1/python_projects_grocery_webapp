@@ -8,7 +8,7 @@ def get_sql_connection():
   global __cnx
 
   if __cnx is None:
-    __cnx = mysql.connector.connect(user='root', password='steady#22GTfast', database='gs')
+    __cnx = mysql.connector.connect(user='root', password='steady#22GTfast', database='heroku_c05e3518c49ce58')
 
   return __cnx
 
