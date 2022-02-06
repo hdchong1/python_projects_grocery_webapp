@@ -5,7 +5,8 @@
 //var productDeleteApiUrl = 'http://127.0.0.1:5000/deleteProduct';
 //var orderListApiUrl = 'http://127.0.0.1:5000/getAllOrders';
 //var orderSaveApiUrl = 'http://127.0.0.1:5000/insertOrder';
-var rootUrl = 'http://127.0.0.1:5000/'
+//var rootUrl = 'http://127.0.0.1:5000/'
+var rootUrl = 'https://gs-flask.herokuapp.com/'
 var productListApiUrl = rootUrl +'getProducts';
 var uomListApiUrl = rootUrl +'getUOM';
 var productSaveApiUrl = rootUrl +'insertProduct';
