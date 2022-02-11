@@ -61,9 +61,9 @@ def delete_product():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 if __name__ == "__main__":
     print("Starting Python Flask Server For Grocery Store Management System")
