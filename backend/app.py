@@ -61,7 +61,7 @@ def delete_product():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route('/hello')
+@app.route('/')
 def index():
     return render_template('index.html')
 
